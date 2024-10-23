@@ -12,11 +12,26 @@ body{
     width: auto;
     animation: slideShow 24s infinite;
     filter: brightness(0.8);
+    position: relative;
 }
-
+.section-1 > p{
+    text-align: center;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-family: "TheMixBlack-Caps", Sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin: 0 -80px;
+}
 @keyframes slideShow {
     0% {
-        background-image: url(../assets/images/background-1.jpeg);
+        background-image: url(../assets/images/background-7.jpeg);
     }
 
     20% {
@@ -36,7 +51,7 @@ body{
     }
 
     100% {
-        background-image: url(../assets/images/background-1.jpeg);
+        background-image: url(../assets/images/background-6.jpeg);
     }
 }
 
