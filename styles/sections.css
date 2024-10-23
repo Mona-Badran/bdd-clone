@@ -1,7 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Proxima Nova', sans-serif;
+}
 .section-1 {
     height: 100vh;
     width: auto;
     animation: slideShow 24s infinite;
+    filter: brightness(0.8);
 }
 
 @keyframes slideShow {
@@ -110,6 +120,8 @@
     padding: 0 20px;
     cursor: pointer;
     transition: all 0.5s;
+    background-color: transparent;
+    border: transparent;
   }
   
   .navbar ul > li > a {
